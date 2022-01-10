@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     func zaczynaj() {
         _ = SSZipArchive.unzipFile(atPath: "dane.zip", toDestination: "/DUPA")
         //SSZipArchive.createZipFile(atPath:  , withContentsOfDirectory: <#T##String#>)
-        print("AAAAA")
+        print("BBBB")
     }
 
 
